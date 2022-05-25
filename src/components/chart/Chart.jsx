@@ -18,7 +18,7 @@ const data = [
 ];
 
 
-const Chart = ({ title = 'Last 6 Months (Revenue)', aspect = '2 / 1'}) => {
+const Chart = ({ title, aspect }) => {
   return (
     <div className='chart'>
     <div className="title">{title}</div>
